@@ -236,36 +236,41 @@ body {
 @media screen and (max-height: 1000px) {
   .six .hat {
     left: 40%;
+    transform: scale(0.6) !important;
+    margin-top: 10px;
   }
   .lydia-dp {
     margin-left: 0 !important;
-    margin-top: 10px;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
+    transform: scale(0.6) !important;
+    margin-top: 10px;
   }
   .lydia-dp {
     margin-left: 0 !important;
-    margin-top: 10px;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
+    transform: scale(0.6) !important;
+    margin-top: 10px;
   }
   .lydia-dp {
     margin-left: 0 !important;
-    margin-top: 10px;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
+    transform: scale(0.6) !important;
+    margin-top: 10px;
   }
 }
 

@@ -7,6 +7,9 @@ const animationTimeline = () => {
   ;(function () {
     hpbdSong.play()
   })()
+  window.addEventListener('touchstart', function (e) {
+    hpbdSong.play()
+  })
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split('')
