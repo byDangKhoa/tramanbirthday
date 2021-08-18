@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -237,17 +237,29 @@ body {
   .six .hat {
     left: 40%;
   }
+  .lydia-dp {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
   }
+  .lydia-dp {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
+  }
+  .lydia-dp {
+    margin-left: 0 !important;
+    margin-top: 10px;
   }
 }
 
@@ -261,7 +273,6 @@ body {
   .container {
     width: 90%;
   }
-
   .four .text-box {
     width: 90%;
   }
@@ -296,7 +307,11 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+  .lydia-dp {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
 }
-.lydia-dp{
-  margin-left:40px;
+.lydia-dp {
+  margin-left: 40px;
 }
